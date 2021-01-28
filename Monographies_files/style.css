@@ -130,17 +130,17 @@ option{
     text-align: center;
 }
 .left a{
-    background: linear-gradient(148deg, rgba(101,57,145,1) 0%, rgba(249,51,145,1) 100%);
+    background: white;
     border-color: white;
     text-decoration: none;
     border-radius: 8px;
     padding: 10px 30px;
-    color: white;
+    color: #6c388f;
     font-size: 32px;
 }
 .left a:hover{
-    background: white;
-    color: #6c388f;
+    background: linear-gradient(148deg, rgba(101,57,145,1) 0%, rgba(249,51,145,1) 100%);
+    color: white;
     text-decoration: underline;
 }
 
