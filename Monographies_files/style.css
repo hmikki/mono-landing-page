@@ -222,12 +222,6 @@ option{
         background-color: #e400ff2e;
         border-color: #e400ff2e;
     }
-    .show{
-        display: none;
-    }
-    .hidden{
-        display: block;
-    }
 
 }
 
