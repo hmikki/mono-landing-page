@@ -39,20 +39,19 @@ svg {
 .logo{
     float: left;
     text-align: left;
-    width: 50%;
+    width: 70%;
     height: auto;
     padding-left: 100px;
 
 }
 .logo img{
-    width: 200px;
     height: 70px;
 }
 
 .menu{
     float: right;
     text-align: right;
-    width: 50%;
+    width: 30%;
     height: auto;
     padding: 10px 10px;
 }
@@ -141,7 +140,6 @@ option{
 .left a:hover{
     background: linear-gradient(148deg, rgba(101,57,145,1) 0%, rgba(249,51,145,1) 100%);
     color: white;
-    text-decoration: underline;
 }
 
 .right{
@@ -193,7 +191,6 @@ option{
         text-align: center;
     }
     .logo img{
-        width: 100px;
         height: 36px;
     }
     .menu{
@@ -262,8 +259,7 @@ option{
         text-align: center;
     }
     .logo img{
-        width: 150px;
-        height: 53px;
+        height: 60px;
     }
     .menu{
         width: 50%;
@@ -312,6 +308,14 @@ option{
     }
     h1{
         padding: 30px 100px 0px 100px;
+    }
+}
+@media (width: 1024px) {
+    .logo{
+        width:60%;
+    }
+    .menu{
+        width:40%;
     }
 }
 @media (min-width: 1024px) {
