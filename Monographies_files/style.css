@@ -3,7 +3,7 @@ body{
 }
 header {
     position: relative;
-    height: 100vh;
+    height: 750px;
     background-image: linear-gradient(148deg, rgba(101,57,145,1) 0%, rgba(249,51,145,1) 100%);
     padding: 0px;
 }
@@ -38,18 +38,23 @@ svg {
 }
 .logo{
     float: left;
+    text-align: left;
+    width: 50%;
     height: auto;
     padding-left: 100px;
 
 }
 .logo img{
+    width: 200px;
     height: 70px;
 }
 
 .menu{
     float: right;
+    text-align: right;
+    width: 50%;
     height: auto;
-    padding: 10px 100px;
+    padding: 10px 10px;
 }
 
 .clearfix{
@@ -136,6 +141,7 @@ option{
 .left a:hover{
     background: linear-gradient(148deg, rgba(101,57,145,1) 0%, rgba(249,51,145,1) 100%);
     color: white;
+    text-decoration: underline;
 }
 
 .right{
@@ -145,9 +151,9 @@ option{
 }
 
 .dashboard{
-    width: 100%;
     border-radius: 10px;
-    height: 100%;
+    width: 100%;
+    height: 450px;
 
 }
 
@@ -164,7 +170,7 @@ option{
         width: 100%;
     }
     header{
-        height: 100vh;
+        height: auto;
     }
     header h1{
         padding: 0px;
@@ -182,15 +188,16 @@ option{
         height: 100%;
     }
     .logo{
-        width: 40%;
+        width: 30%;
         padding-left: 0px;
         text-align: center;
     }
     .logo img{
+        width: 100px;
         height: 36px;
     }
     .menu{
-        width:60%;
+        width: 70%;
     }
     .nav-item{
         padding: 0px 0px;
@@ -232,7 +239,7 @@ option{
         width: 100%;
     }
     header{
-        height: 100vh;
+        height: auto;
     }
     header h1{
         padding: 0px;
@@ -250,15 +257,16 @@ option{
         height: 100%;
     }
     .logo{
-        width: 40%;
+        width: 50%;
         padding-left: 0px;
         text-align: center;
     }
     .logo img{
-        height: 60px;
+        width: 150px;
+        height: 53px;
     }
     .menu{
-        width: 60%;
+        width: 50%;
     }
     .nav-item{
         padding: 0px 0px;
@@ -279,10 +287,13 @@ option{
 
 @media (min-width: 768px) and (max-width: 1023px){
     header{
-        height: 100vh;
+        height: auto;
     }
     .logo{
-        padding-left: 20px;
+        width: 40%;
+    }
+    .menu{
+        width: 60%;
     }
     .left{
         float: none;
@@ -294,7 +305,7 @@ option{
     }
     .dashboard{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     .nav-item{
         padding: 0px 15px;
@@ -306,10 +317,9 @@ option{
 @media (min-width: 1024px) {
     .dashboard{
         width: 100%;
-        height: 100%
     }
     header{
-        height: 100vh;
+        height: 750px;
     }
 
 }
