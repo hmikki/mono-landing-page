@@ -3,7 +3,7 @@ body{
 }
 header {
     position: relative;
-    height: 750px;
+    height: 100vh;
     background-image: linear-gradient(148deg, rgba(101,57,145,1) 0%, rgba(249,51,145,1) 100%);
     padding: 0px;
 }
@@ -168,7 +168,7 @@ option{
         width: 100%;
     }
     header{
-        height: auto;
+        height: 100vh;
     }
     header h1{
         padding: 0px;
@@ -236,7 +236,7 @@ option{
         width: 100%;
     }
     header{
-        height: auto;
+        height: 100vh;
     }
     header h1{
         padding: 0px;
@@ -283,7 +283,7 @@ option{
 
 @media (min-width: 768px) and (max-width: 1023px){
     header{
-        height: auto;
+        height: 100vh;
     }
     .logo{
         width: 50%;
@@ -322,7 +322,7 @@ option{
         width: 100%;
     }
     header{
-        height: 750px;
+        height: 100vh;
     }
 
 }
