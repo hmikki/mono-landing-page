@@ -286,10 +286,11 @@ option{
         height: auto;
     }
     .logo{
-        width: 40%;
+        width: 50%;
+        padding-left: 20px;
     }
     .menu{
-        width: 60%;
+        width: 50%;
     }
     .left{
         float: none;
@@ -310,15 +311,13 @@ option{
         padding: 30px 100px 0px 100px;
     }
 }
-@media (width: 1024px) {
+@media (min-width: 1024px) {
     .logo{
         width:60%;
     }
     .menu{
         width:40%;
     }
-}
-@media (min-width: 1024px) {
     .dashboard{
         width: 100%;
     }
