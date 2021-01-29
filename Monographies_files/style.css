@@ -45,7 +45,8 @@ svg {
 
 }
 .logo img{
-    height: 70px;
+    width: 100%;
+    height: 100%
 }
 
 .menu{
@@ -193,9 +194,6 @@ option{
         padding-left: 20px;
         text-align: center;
     }
-    .logo img{
-        height: 70px;
-    }
     .menu{
         width: 60%;
     }
@@ -260,9 +258,6 @@ option{
         width: 40%;
         padding-left: 0px;
         text-align: center;
-    }
-    .logo img{
-        height: 70px;
     }
     .menu{
         width: 60%;
