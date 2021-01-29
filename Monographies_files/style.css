@@ -37,6 +37,7 @@ svg {
     padding: 1.5em 0em;
 }
 .logo{
+    float: left;
     height: auto;
     padding-left: 100px;
 
@@ -181,11 +182,15 @@ option{
         height: 100%;
     }
     .logo{
+        width: 40%;
         padding-left: 0px;
         text-align: center;
     }
     .logo img{
         height: 36px;
+    }
+    .menu{
+        width:60%;
     }
     .nav-item{
         padding: 0px 0px;
@@ -245,11 +250,15 @@ option{
         height: 100%;
     }
     .logo{
+        width: 40%;
         padding-left: 0px;
         text-align: center;
     }
     .logo img{
         height: 60px;
+    }
+    .menu{
+        width: 60%;
     }
     .nav-item{
         padding: 0px 0px;
